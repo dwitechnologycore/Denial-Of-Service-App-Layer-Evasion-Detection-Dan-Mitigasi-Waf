@@ -36,6 +36,5 @@ Pada log yang sama, terdapat anomali pada endpoint /search di mana Intrusion Det
 Teknik encoding seperti URL/Hex Encoding dan fragmentation sering kali berhasil mengecoh mesin IDS/IPS generasi lama yang hanya menggunakan pencocokan pola (String/Signature Matching). Hal ini disebabkan oleh mesin IDS generasi lama yang hanya sebatas mencocokkan teks polos atau string. Sedangkan teknik encoding seperti  URL/Hex Encoding dapat mengubah bentuk payload dan fragmentasi dapat memecah payload menjadi beberapa paket sehingga pola serangan tidak dapat terbaca secara utuh hanya dalam satu kali pemeriksaan.
 <br></br>
 ## Rekomendasi Mitigasi
-<br></br>
 - Implementasikan Rate Limiting
 - Implementasi Normalisasi & Pemblokiran Evasion
